@@ -89,26 +89,38 @@ button:hover {
     color: #FFD900;
 }
 
-@media (max-width: 1200px) {
-    main {
-        grid-auto-flow: row;
-    }
-
-    #info, #couter {
-        max-width: 100%;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
+@media only screen and (max-width: 1366px) {
+  
     #info {
-        height: auto;
+      width: 600px;
+      margin-right: 30px;
+    }
+  
+    #info p {
+        font-size: 22px;
+        margin: 50px 0px 70px 0px;
     }
 
-    #ingressos h2 {
-        margin-top: 0px;
+    #info h1 {
+        font-size: 45px;
+        margin: 25px 0px 0px 0px;
     }
 
-    #ingressos img {
-        margin-right: 0px;
+    #info h2 {
+        margin-top: 10px;
+        font-size: 20px;
+        
+    }
+    div video {
+        width: 95%;
+    }
+  
+    .temp {
+      width: 100%;
+    }
+    
+    button {
+      width: 450px;
+      height: 130px;
     }
 }
