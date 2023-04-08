@@ -20,11 +20,18 @@ header {
     text-align: center;    
     color: white;
     width: 950px;
+    
 }
 
 #info h1 {
     color:#FFD900;
-    font-size: 45px;
+    font-size: 55px;
+    margin: 25px 0px 0px 0px;
+}
+
+#info h2 {
+    margin: 25px 0px 60px 0px;
+    font-size: 25px;
 }
 
 #info p {
@@ -36,6 +43,7 @@ header {
     color: #E33881;
     width: 600px;
     margin: 0px;
+    margin-bottom: 15px;
 }
 
 .temp{
@@ -96,11 +104,6 @@ button:hover {
       margin-right: 30px;
     }
   
-    #info p {
-        font-size: 22px;
-        margin: 50px 0px 70px 0px;
-    }
-
     #info h1 {
         font-size: 45px;
         margin: 25px 0px 0px 0px;
@@ -109,8 +112,14 @@ button:hover {
     #info h2 {
         margin-top: 10px;
         font-size: 20px;
-        
+
     }
+
+    #info p {
+        font-size: 22px;
+        margin: 50px 0px 70px 0px;
+    }
+
     div video {
         width: 95%;
     }
@@ -118,7 +127,7 @@ button:hover {
     .temp {
       width: 100%;
     }
-    
+
     button {
       width: 450px;
       height: 130px;
